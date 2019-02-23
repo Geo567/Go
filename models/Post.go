@@ -8,5 +8,5 @@ type Post struct {
 }
 
 func NewPost(id, title, contentHtml, contentMarkdown string) *Post {
-	return &Post{id, title, contentHtml, contentMarkdown}
+	return &Post{Id, Title, ContentHtml, ContentMarkdown}
 }
